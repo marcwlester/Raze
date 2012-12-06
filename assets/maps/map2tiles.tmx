@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="4" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="newow" tilewidth="16" tileheight="16">
+  <image source="../../../../../../Downloads/newow.png" trans="ffffff" width="4096" height="4096"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxVj91KAlEURpdK2Q9SjuMMJhRjMo4/k5Ua0lUEPkEI4UUYIiJ40Sv45i3pJg8s9tn7fPvb+xSA2gmEkp9Bsw6dAD4nEL3D/bl5GbpS60Nd4ieYp7Brw2oMaQvuBuqMkbpqBQLJ7S2Zty7VPxhf9btQb713rc5aKPELLOTrUT81zSEkzmibB/rfGPOD9tT5Ekma+e4O6zfIrmAz009daH9DFlPYP+tnLfEvtyP/YE/34Kd37oz/J+25W/Z3X8bwLcvIKD9FSWDrDh/Zcd8vUKAX1w==
+  </data>
+ </layer>
+</map>
