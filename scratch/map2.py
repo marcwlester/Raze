@@ -101,8 +101,8 @@ for cx in range(0, 50):
 	c += Pos((1,0))
 	#time.sleep(1)
 def draw_map(stdscr, pos, width, height):
-	for y in range(0, height):
-		for x in range(0, width):
+	for y in xrange(0, height):
+		for x in xrange(0, width):
 			stdscr.addstr(y, x, '#', curses.color_pair(tile_color(ml1.get_data_at(Pos((x, y)) + pos))))
 
 def main(stdscr):
@@ -130,7 +130,7 @@ scrsize = screen.getmaxyx()
 #main(screen)
 while True:
 	scrsize = screen.getmaxyx()
-	draw_map(screen, pp, scrsize[1]-1, scrsize[0]-1)
+	draw_map(screen, pp, scrsize[1], scrsize[0]-1)
 	event = screen.getch()
 	if event == ord('q'):
 		break
