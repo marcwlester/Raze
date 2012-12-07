@@ -19,7 +19,7 @@
 			"file": "scratch/map2.py",
 			"settings":
 			{
-				"buffer_size": 748,
+				"buffer_size": 2952,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,6 +79,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			")\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -130,23 +131,24 @@
 					"file": "scratch/map2.py",
 					"settings":
 					{
-						"buffer_size": 748,
+						"buffer_size": 2952,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								743,
-								743
+								2670,
+								2670
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4.0,
+						"translation.y": 1618.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -163,8 +165,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								97454,
+								97454
 							]
 						],
 						"settings":
@@ -213,7 +215,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 112.0
+		"height": 231.0
 	},
 	"replace":
 	{
@@ -240,6 +242,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 302.0,
+	"side_bar_width": 246.0,
 	"status_bar_visible": true
 }

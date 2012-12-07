@@ -12,6 +12,9 @@ class Pos(tuple):
 		return self.__class__(tuple(map(operator.add, self, p)))
 		#return self.__class__(map(lambda x, y:x + y, self.pos, p))
 
+	def __sub__(self, p):
+		return self.__class__(tuple(map(operator.sub, self, p)))
+
 	def __repr__(self):
 		return repr(self.pos)
 
@@ -97,9 +100,9 @@ for cx in range(0, 50):
 	#sys.stdout.write("\b"*(8*16))
 	c += Pos((1,0))
 	#time.sleep(1)
-def draw_map(stdscr, pos):
-	for y in range(0, 16):
-		for x in range(0, 32):
+def draw_map(stdscr, pos, width, height):
+	for y in range(0, height):
+		for x in range(0, width):
 			stdscr.addstr(y, x, '#', curses.color_pair(tile_color(ml1.get_data_at(Pos((x, y)) + pos))))
 
 def main(stdscr):
@@ -122,10 +125,27 @@ curses.noecho()
 curses.curs_set(0)
 screen.keypad(1)
 
-main(screen)
+pp = Pos((0, 50))
+scrsize = screen.getmaxyx()
+#main(screen)
+while True:
+	scrsize = screen.getmaxyx()
+	draw_map(screen, pp, scrsize[1]-1, scrsize[0]-1)
+	event = screen.getch()
+	if event == ord('q'):
+		break
+	elif event == curses.KEY_RIGHT:
+		pp += Pos((1,0))
+	elif event == curses.KEY_LEFT:
+		pp -= Pos((1,0))
+	elif event == curses.KEY_UP:
+		pp -= Pos((0,1))
+	elif event == curses.KEY_DOWN:
+		pp += Pos((0,1)) 
 
 #screen.addstr(0,0, '#', curses.color_pair(1))
 #screen.refresh()
-time.sleep(3)
+#time.sleep(3)
 
 curses.endwin()
+print scrsize[0], scrsize[1]
