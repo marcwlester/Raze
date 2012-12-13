@@ -8,18 +8,26 @@
 	"buffers":
 	[
 		{
-			"file": "scratch/map1.py",
+			"file": "scratch/map2.py",
 			"settings":
 			{
-				"buffer_size": 2458,
+				"buffer_size": 3484,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "scratch/map2.py",
+			"file": "scratch/map3.py",
 			"settings":
 			{
-				"buffer_size": 2952,
+				"buffer_size": 2305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "raze/maptools.py",
+			"settings":
+			{
+				"buffer_size": 1368,
 				"line_ending": "Unix"
 			}
 		},
@@ -60,6 +68,9 @@
 	},
 	"file_history":
 	[
+		"/home/marc/Work/Raze/raze/main.py",
+		"/home/marc/Work/Raze/assets/maps/world_map.json",
+		"/home/marc/Work/Raze/scratch/map1.py",
 		"/home/marc/Work/Raze/assets/maps/world_map.tmx",
 		"/home/marc/Work/pytest/main.py"
 	],
@@ -102,44 +113,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "scratch/map1.py",
-					"settings":
-					{
-						"buffer_size": 2458,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2337,
-								2337
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 255.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "scratch/map2.py",
 					"settings":
 					{
-						"buffer_size": 2952,
+						"buffer_size": 3484,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2670,
-								2670
+								1790,
+								1790
 							]
 						],
 						"settings":
@@ -148,13 +133,67 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1618.0,
+						"translation.y": 377.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scratch/map3.py",
+					"settings":
+					{
+						"buffer_size": 2305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1122.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "raze/maptools.py",
+					"settings":
+					{
+						"buffer_size": 1368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1051,
+								1051
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 269.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "assets/maps/world_map.json",
 					"settings":
 					{
@@ -165,8 +204,8 @@
 						"selection":
 						[
 							[
-								97454,
-								97454
+								0,
+								0
 							]
 						],
 						"settings":
@@ -174,7 +213,7 @@
 							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 520.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -188,7 +227,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
